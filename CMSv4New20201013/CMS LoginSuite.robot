@@ -7,11 +7,11 @@ Resource          .\\CustomKeywords\\LoginKeywords\\LoginAssert.robot
 
 *** Test Cases ***
 Login Success
-    [Setup]
+    [Setup]    No Operation
     [Template]    Login Success
     Administrator    Screenbeam    498
     Administrator    Screenbeam    9
-    [Teardown]
+    [Teardown]    No Operation
 
 Login Fail
     [Template]    Login Fail
