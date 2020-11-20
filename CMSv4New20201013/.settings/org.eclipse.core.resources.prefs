@@ -1,2 +1,6 @@
 eclipse.preferences.version=1
+encoding//Libs/screenbeam/CheckCaseID.py=utf-8
+encoding//Libs/screenbeam/ReportTestLink.py=utf-8
+encoding//Libs/screenbeam/ScriptedCases.py=utf-8
 encoding//Libs/screenbeam/SyncCasesToDB.py=utf-8
+encoding//Libs/screenbeam/UpdateTestResult.py=utf-8
