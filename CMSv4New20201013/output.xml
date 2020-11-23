@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.1 (Python 3.7.7 on win32)" generated="20201119 16:56:45.614" rpa="false">
+<robot generator="Robot 3.2.1 (Python 3.7.7 on win32)" generated="20201120 09:03:28.078" rpa="false">
 <suite id="s1" name="CMSv4New20201013" source="D:\CMSV4\CMSv4New20201013">
 <suite id="s1-s1" name="CMS LoginSuite" source="D:\CMSV4\CMSv4New20201013\CMS LoginSuite.robot">
 <test id="s1-s1-t1" name="Login Success">
 <kw name="No Operation" library="BuiltIn" type="setup">
 <doc>Does absolutely nothing.</doc>
-<status status="PASS" starttime="20201119 16:56:46.187" endtime="20201119 16:56:46.188"></status>
+<status status="PASS" starttime="20201120 09:03:28.526" endtime="20201120 09:03:28.527"></status>
 </kw>
 <kw name="Login Success" library="LoginAssert">
 <arguments>
@@ -25,10 +25,10 @@
 <arguments>
 <arg>Running Case -------- ${caseid}</arg>
 </arguments>
-<msg timestamp="20201119 16:56:46.190" level="INFO">Running Case -------- 498</msg>
-<status status="PASS" starttime="20201119 16:56:46.190" endtime="20201119 16:56:46.190"></status>
+<msg timestamp="20201120 09:03:28.529" level="INFO">Running Case -------- 498</msg>
+<status status="PASS" starttime="20201120 09:03:28.529" endtime="20201120 09:03:28.529"></status>
 </kw>
-<status status="PASS" starttime="20201119 16:56:46.189" endtime="20201119 16:56:46.191"></status>
+<status status="PASS" starttime="20201120 09:03:28.528" endtime="20201120 09:03:28.530"></status>
 </kw>
 <kw name="Login" library="LoginModel">
 <arguments>
@@ -43,14 +43,14 @@
 <arg>${browser}</arg>
 <arg>options=add_argument("--disable-popup-blocking"); add_argument("--ignore-certificate-errors")</arg>
 </arguments>
-<msg timestamp="20201119 16:56:46.194" level="INFO">Opening browser 'chrome' to base url 'https://192.168.1.142:8888/Login'.</msg>
-<status status="PASS" starttime="20201119 16:56:46.193" endtime="20201119 16:56:50.369"></status>
+<msg timestamp="20201120 09:03:28.533" level="INFO">Opening browser 'chrome' to base url 'https://192.168.1.142:8888/Login'.</msg>
+<status status="PASS" starttime="20201120 09:03:28.532" endtime="20201120 09:03:33.295"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20201119 16:56:50.370" endtime="20201119 16:56:52.514"></status>
+<status status="PASS" starttime="20201120 09:03:33.295" endtime="20201120 09:03:35.670"></status>
 </kw>
-<status status="PASS" starttime="20201119 16:56:46.192" endtime="20201119 16:56:52.515"></status>
+<status status="PASS" starttime="20201120 09:03:28.532" endtime="20201120 09:03:35.670"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -69,12 +69,12 @@
 <arg>${LoginUsernameL}</arg>
 <arg>${username}</arg>
 </arguments>
-<msg timestamp="20201119 16:56:52.519" level="INFO">Typing text 'Administrator' into text field 'id=login-username'.</msg>
-<status status="PASS" starttime="20201119 16:56:52.518" endtime="20201119 16:56:52.719"></status>
+<msg timestamp="20201120 09:03:35.673" level="INFO">Typing text 'Administrator' into text field 'id=login-username'.</msg>
+<status status="PASS" starttime="20201120 09:03:35.673" endtime="20201120 09:03:35.913"></status>
 </kw>
-<status status="PASS" starttime="20201119 16:56:52.517" endtime="20201119 16:56:52.720"></status>
+<status status="PASS" starttime="20201120 09:03:35.672" endtime="20201120 09:03:35.914"></status>
 </kw>
-<status status="PASS" starttime="20201119 16:56:52.516" endtime="20201119 16:56:52.720"></status>
+<status status="PASS" starttime="20201120 09:03:35.671" endtime="20201120 09:03:35.914"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -93,12 +93,12 @@
 <arg>${LoginPasswordL}</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20201119 16:56:52.724" level="INFO">Typing text 'Screenbeam' into text field 'id=Password'.</msg>
-<status status="PASS" starttime="20201119 16:56:52.723" endtime="20201119 16:56:52.943"></status>
+<msg timestamp="20201120 09:03:35.918" level="INFO">Typing text 'Screenbeam' into text field 'id=Password'.</msg>
+<status status="PASS" starttime="20201120 09:03:35.917" endtime="20201120 09:03:36.103"></status>
 </kw>
-<status status="PASS" starttime="20201119 16:56:52.722" endtime="20201119 16:56:52.943"></status>
+<status status="PASS" starttime="20201120 09:03:35.916" endtime="20201120 09:03:36.104"></status>
 </kw>
-<status status="PASS" starttime="20201119 16:56:52.721" endtime="20201119 16:56:52.944"></status>
+<status status="PASS" starttime="20201120 09:03:35.915" endtime="20201120 09:03:36.104"></status>
 </kw>
 <kw name="Click Login Button" library="LoginActions">
 <kw name="Click Button" library="SeleniumLibrary">
@@ -106,67 +106,54 @@
 <arguments>
 <arg>${LoginButtonL}</arg>
 </arguments>
-<msg timestamp="20201119 16:56:52.947" level="INFO">Clicking button 'id=log-in'.</msg>
-<status status="PASS" starttime="20201119 16:56:52.946" endtime="20201119 16:56:53.065"></status>
+<msg timestamp="20201120 09:03:36.106" level="INFO">Clicking button 'id=log-in'.</msg>
+<status status="PASS" starttime="20201120 09:03:36.105" endtime="20201120 09:03:36.198"></status>
 </kw>
-<status status="PASS" starttime="20201119 16:56:52.945" endtime="20201119 16:56:53.066"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>2</arg>
-</arguments>
-<msg timestamp="20201119 16:56:55.068" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20201119 16:56:53.066" endtime="20201119 16:56:55.068"></status>
-</kw>
-<status status="PASS" starttime="20201119 16:56:46.191" endtime="20201119 16:56:55.069"></status>
+<status status="PASS" starttime="20201120 09:03:36.104" endtime="20201120 09:03:36.199"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2</arg>
 </arguments>
-<msg timestamp="20201119 16:56:57.071" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20201119 16:56:55.069" endtime="20201119 16:56:57.071"></status>
+<msg timestamp="20201120 09:03:38.201" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20201120 09:03:36.199" endtime="20201120 09:03:38.201"></status>
+</kw>
+<status status="PASS" starttime="20201120 09:03:28.530" endtime="20201120 09:03:38.201"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20201120 09:03:40.203" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20201120 09:03:38.202" endtime="20201120 09:03:40.203"></status>
 </kw>
 <kw name="Page Should Contain Element" library="SeleniumLibrary">
 <doc>Verifies that element ``locator`` is found on the current page.</doc>
 <arguments>
 <arg>${welcomeTextL}</arg>
 </arguments>
-<msg timestamp="20201119 16:56:57.093" level="INFO">Current page contains element '//p[@class="welcome" and text()="Welcome"]'.</msg>
-<status status="PASS" starttime="20201119 16:56:57.072" endtime="20201119 16:56:57.094"></status>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201120 09:04:06.425" level="FAIL">WebDriverException: Message: chrome not reachable
+  (Session info: chrome=86.0.4240.198)
+</msg>
+<status status="FAIL" starttime="20201120 09:03:53.253" endtime="20201120 09:04:06.425"></status>
 </kw>
-<kw name="Page Should Contain Element" library="SeleniumLibrary">
-<doc>Verifies that element ``locator`` is found on the current page.</doc>
-<arguments>
-<arg>${currentUserL}/p[@class="user-label" and text()="${username}"]</arg>
-</arguments>
-<msg timestamp="20201119 16:56:57.124" level="INFO">Current page contains element '//div[@class="currentUser"]//p[@class="user-label" and text()="Administrator"]'.</msg>
-<status status="PASS" starttime="20201119 16:56:57.094" endtime="20201119 16:56:57.125"></status>
-</kw>
-<kw name="Run Keyword If" library="BuiltIn">
-<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<arguments>
-<arg>'${caseid}' != 'Blank'</arg>
-<arg>Log</arg>
-<arg>Done case-${caseid}</arg>
-</arguments>
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>Done case-${caseid}</arg>
-</arguments>
-<msg timestamp="20201119 16:56:57.127" level="INFO">Done case-498</msg>
-<status status="PASS" starttime="20201119 16:56:57.126" endtime="20201119 16:56:57.127"></status>
-</kw>
-<status status="PASS" starttime="20201119 16:56:57.125" endtime="20201119 16:56:57.127"></status>
+<msg timestamp="20201120 09:04:06.425" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: WebDriverException: Message: chrome not reachable
+  (Session info: chrome=86.0.4240.198)
+</msg>
+<msg timestamp="20201120 09:04:06.429" level="FAIL">WebDriverException: Message: chrome not reachable
+  (Session info: chrome=86.0.4240.198)
+</msg>
+<status status="FAIL" starttime="20201120 09:03:40.203" endtime="20201120 09:04:06.429"></status>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary" type="teardown">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20201119 16:56:57.128" endtime="20201119 16:56:59.498"></status>
+<status status="PASS" starttime="20201120 09:04:06.430" endtime="20201120 09:04:08.475"></status>
 </kw>
-<status status="PASS" starttime="20201119 16:56:46.188" endtime="20201119 16:56:59.498"></status>
+<status status="FAIL" starttime="20201120 09:03:28.527" endtime="20201120 09:04:08.475"></status>
 </kw>
 <kw name="Login Success" library="LoginAssert">
 <arguments>
@@ -186,10 +173,10 @@
 <arguments>
 <arg>Running Case -------- ${caseid}</arg>
 </arguments>
-<msg timestamp="20201119 16:56:59.502" level="INFO">Running Case -------- 9</msg>
-<status status="PASS" starttime="20201119 16:56:59.501" endtime="20201119 16:56:59.503"></status>
+<msg timestamp="20201120 09:04:08.478" level="INFO">Running Case -------- 9</msg>
+<status status="PASS" starttime="20201120 09:04:08.478" endtime="20201120 09:04:08.478"></status>
 </kw>
-<status status="PASS" starttime="20201119 16:56:59.500" endtime="20201119 16:56:59.503"></status>
+<status status="PASS" starttime="20201120 09:04:08.477" endtime="20201120 09:04:08.479"></status>
 </kw>
 <kw name="Login" library="LoginModel">
 <arguments>
@@ -204,14 +191,14 @@
 <arg>${browser}</arg>
 <arg>options=add_argument("--disable-popup-blocking"); add_argument("--ignore-certificate-errors")</arg>
 </arguments>
-<msg timestamp="20201119 16:56:59.506" level="INFO">Opening browser 'chrome' to base url 'https://192.168.1.142:8888/Login'.</msg>
-<status status="PASS" starttime="20201119 16:56:59.505" endtime="20201119 16:57:03.711"></status>
+<msg timestamp="20201120 09:04:08.480" level="INFO">Opening browser 'chrome' to base url 'https://192.168.1.142:8888/Login'.</msg>
+<status status="PASS" starttime="20201120 09:04:08.480" endtime="20201120 09:04:13.330"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20201119 16:57:03.711" endtime="20201119 16:57:06.164"></status>
+<status status="PASS" starttime="20201120 09:04:13.330" endtime="20201120 09:04:15.849"></status>
 </kw>
-<status status="PASS" starttime="20201119 16:56:59.504" endtime="20201119 16:57:06.166"></status>
+<status status="PASS" starttime="20201120 09:04:08.480" endtime="20201120 09:04:15.850"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -230,12 +217,12 @@
 <arg>${LoginUsernameL}</arg>
 <arg>${username}</arg>
 </arguments>
-<msg timestamp="20201119 16:57:06.173" level="INFO">Typing text 'Administrator' into text field 'id=login-username'.</msg>
-<status status="PASS" starttime="20201119 16:57:06.171" endtime="20201119 16:57:06.438"></status>
+<msg timestamp="20201120 09:04:15.854" level="INFO">Typing text 'Administrator' into text field 'id=login-username'.</msg>
+<status status="PASS" starttime="20201120 09:04:15.853" endtime="20201120 09:04:16.081"></status>
 </kw>
-<status status="PASS" starttime="20201119 16:57:06.170" endtime="20201119 16:57:06.438"></status>
+<status status="PASS" starttime="20201120 09:04:15.852" endtime="20201120 09:04:16.082"></status>
 </kw>
-<status status="PASS" starttime="20201119 16:57:06.168" endtime="20201119 16:57:06.439"></status>
+<status status="PASS" starttime="20201120 09:04:15.851" endtime="20201120 09:04:16.082"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -254,12 +241,12 @@
 <arg>${LoginPasswordL}</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20201119 16:57:06.442" level="INFO">Typing text 'Screenbeam' into text field 'id=Password'.</msg>
-<status status="PASS" starttime="20201119 16:57:06.442" endtime="20201119 16:57:06.793"></status>
+<msg timestamp="20201120 09:04:16.086" level="INFO">Typing text 'Screenbeam' into text field 'id=Password'.</msg>
+<status status="PASS" starttime="20201120 09:04:16.085" endtime="20201120 09:04:16.256"></status>
 </kw>
-<status status="PASS" starttime="20201119 16:57:06.440" endtime="20201119 16:57:06.793"></status>
+<status status="PASS" starttime="20201120 09:04:16.084" endtime="20201120 09:04:16.257"></status>
 </kw>
-<status status="PASS" starttime="20201119 16:57:06.439" endtime="20201119 16:57:06.793"></status>
+<status status="PASS" starttime="20201120 09:04:16.083" endtime="20201120 09:04:16.257"></status>
 </kw>
 <kw name="Click Login Button" library="LoginActions">
 <kw name="Click Button" library="SeleniumLibrary">
@@ -267,44 +254,44 @@
 <arguments>
 <arg>${LoginButtonL}</arg>
 </arguments>
-<msg timestamp="20201119 16:57:06.795" level="INFO">Clicking button 'id=log-in'.</msg>
-<status status="PASS" starttime="20201119 16:57:06.795" endtime="20201119 16:57:07.003"></status>
+<msg timestamp="20201120 09:04:16.259" level="INFO">Clicking button 'id=log-in'.</msg>
+<status status="PASS" starttime="20201120 09:04:16.259" endtime="20201120 09:04:16.365"></status>
 </kw>
-<status status="PASS" starttime="20201119 16:57:06.794" endtime="20201119 16:57:07.003"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>2</arg>
-</arguments>
-<msg timestamp="20201119 16:57:09.005" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20201119 16:57:07.004" endtime="20201119 16:57:09.005"></status>
-</kw>
-<status status="PASS" starttime="20201119 16:56:59.503" endtime="20201119 16:57:09.006"></status>
+<status status="PASS" starttime="20201120 09:04:16.258" endtime="20201120 09:04:16.366"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2</arg>
 </arguments>
-<msg timestamp="20201119 16:57:11.009" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20201119 16:57:09.006" endtime="20201119 16:57:11.009"></status>
+<msg timestamp="20201120 09:04:18.369" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20201120 09:04:16.367" endtime="20201120 09:04:18.369"></status>
+</kw>
+<status status="PASS" starttime="20201120 09:04:08.479" endtime="20201120 09:04:18.370"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20201120 09:04:20.373" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20201120 09:04:18.370" endtime="20201120 09:04:20.373"></status>
 </kw>
 <kw name="Page Should Contain Element" library="SeleniumLibrary">
 <doc>Verifies that element ``locator`` is found on the current page.</doc>
 <arguments>
 <arg>${welcomeTextL}</arg>
 </arguments>
-<msg timestamp="20201119 16:57:11.071" level="INFO">Current page contains element '//p[@class="welcome" and text()="Welcome"]'.</msg>
-<status status="PASS" starttime="20201119 16:57:11.009" endtime="20201119 16:57:11.072"></status>
+<msg timestamp="20201120 09:04:20.431" level="INFO">Current page contains element '//p[@class="welcome" and text()="Welcome"]'.</msg>
+<status status="PASS" starttime="20201120 09:04:20.374" endtime="20201120 09:04:20.431"></status>
 </kw>
 <kw name="Page Should Contain Element" library="SeleniumLibrary">
 <doc>Verifies that element ``locator`` is found on the current page.</doc>
 <arguments>
 <arg>${currentUserL}/p[@class="user-label" and text()="${username}"]</arg>
 </arguments>
-<msg timestamp="20201119 16:57:11.165" level="INFO">Current page contains element '//div[@class="currentUser"]//p[@class="user-label" and text()="Administrator"]'.</msg>
-<status status="PASS" starttime="20201119 16:57:11.072" endtime="20201119 16:57:11.166"></status>
+<msg timestamp="20201120 09:04:20.475" level="INFO">Current page contains element '//div[@class="currentUser"]//p[@class="user-label" and text()="Administrator"]'.</msg>
+<status status="PASS" starttime="20201120 09:04:20.431" endtime="20201120 09:04:20.476"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -318,39 +305,67 @@
 <arguments>
 <arg>Done case-${caseid}</arg>
 </arguments>
-<msg timestamp="20201119 16:57:11.168" level="INFO">Done case-9</msg>
-<status status="PASS" starttime="20201119 16:57:11.167" endtime="20201119 16:57:11.168"></status>
+<msg timestamp="20201120 09:04:20.478" level="INFO">Done case-9</msg>
+<status status="PASS" starttime="20201120 09:04:20.477" endtime="20201120 09:04:20.478"></status>
 </kw>
-<status status="PASS" starttime="20201119 16:57:11.166" endtime="20201119 16:57:11.168"></status>
+<status status="PASS" starttime="20201120 09:04:20.476" endtime="20201120 09:04:20.479"></status>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary" type="teardown">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20201119 16:57:11.169" endtime="20201119 16:57:13.472"></status>
+<status status="PASS" starttime="20201120 09:04:20.479" endtime="20201120 09:04:24.222"></status>
 </kw>
-<status status="PASS" starttime="20201119 16:56:59.499" endtime="20201119 16:57:13.472"></status>
+<status status="PASS" starttime="20201120 09:04:08.476" endtime="20201120 09:04:24.222"></status>
 </kw>
 <kw name="No Operation" library="BuiltIn" type="teardown">
 <doc>Does absolutely nothing.</doc>
-<status status="PASS" starttime="20201119 16:57:13.473" endtime="20201119 16:57:13.474"></status>
+<status status="PASS" starttime="20201120 09:04:24.223" endtime="20201120 09:04:24.224"></status>
 </kw>
-<status status="PASS" starttime="20201119 16:56:46.186" endtime="20201119 16:57:13.474" critical="yes"></status>
+<status status="FAIL" starttime="20201120 09:03:28.525" endtime="20201120 09:04:24.224" critical="yes">WebDriverException: Message: chrome not reachable
+  (Session info: chrome=86.0.4240.198)
+</status>
 </test>
-<status status="PASS" starttime="20201119 16:56:45.763" endtime="20201119 16:57:13.475"></status>
-</suite>
-<status status="PASS" starttime="20201119 16:56:45.711" endtime="20201119 16:57:13.479"></status>
-</suite>
-<statistics>
-<total>
-<stat pass="1" fail="0">Critical Tests</stat>
-<stat pass="1" fail="0">All Tests</stat>
-</total>
-<tag>
-</tag>
-<suite>
-<stat pass="1" fail="0" id="s1" name="CMSv4New20201013">CMSv4New20201013</stat>
-<stat pass="1" fail="0" id="s1-s1" name="CMS LoginSuite">CMSv4New20201013.CMS LoginSuite</stat>
-</suite>
-</statistics>
-<errors>
-</errors>
-</robot>
+<test id="s1-s1-t2" name="Login Fail">
+<kw name="Login Fail" library="LoginAssert">
+<arguments>
+<arg>Blank</arg>
+<arg>Blank</arg>
+<arg>1</arg>
+</arguments>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>'${caseid}' != 'Blank'</arg>
+<arg>Log</arg>
+<arg>Running Case -------- ${caseid}</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Running Case -------- ${caseid}</arg>
+</arguments>
+<msg timestamp="20201120 09:04:24.227" level="INFO">Running Case -------- 1</msg>
+<status status="PASS" starttime="20201120 09:04:24.227" endtime="20201120 09:04:24.228"></status>
+</kw>
+<status status="PASS" starttime="20201120 09:04:24.226" endtime="20201120 09:04:24.228"></status>
+</kw>
+<kw name="Login" library="LoginModel">
+<arguments>
+<arg>${username}</arg>
+<arg>${password}</arg>
+</arguments>
+<kw name="Open Url" library="Common">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<arg>options=add_argument("--disable-popup-blocking"); add_argument("--ignore-certificate-errors")</arg>
+</arguments>
+<msg timestamp="20201120 09:04:24.230" level="INFO">Opening browser 'chrome' to base url 'https://192.168.1.142:8888/Login'.</msg>
+<status status="PASS" starttime="20201120 09:04:24.230" endtime="20201120 09:04:28.880"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20201120 09:04:28.881" endtime="20201120 09:04:31.214"></status>
+</kw>
+<status status="PASS" starttime="20201120 09:04:24.229" endtime="20201120 09:04:31.214">

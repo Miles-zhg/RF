@@ -7,11 +7,11 @@ Resource          .\\CustomKeywords\\LoginKeywords\\LoginAssert.robot
 
 *** Test Cases ***
 Login Success
-    [Setup]    No Operation
+    [Setup]
     [Template]    Login Success
     Administrator    Screenbeam    498
     Administrator    Screenbeam    9
-    [Teardown]    No Operation
+    [Teardown]
 
 Login Fail
     [Template]    Login Fail
@@ -28,5 +28,5 @@ Test
     @{list}    Create List    MD    CD
     Evaluate    ${list}.extend("AD")
     Log    ----${list}-----
-    :FOR    ${item}    IN    @{list}
-    \    Log    ${item}
+    FOR    ${item}    IN    @{list}
+        Log    ${item}
