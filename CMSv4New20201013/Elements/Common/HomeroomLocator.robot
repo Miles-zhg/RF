@@ -1,6 +1,6 @@
 *** Variables ***
 ${welcomeTextL}    //p[@class="welcome" and text()="Welcome"]
-${currentUserL}    //div[@class="currentUser"]/
+${currentUserL}    //div[@class="currentUser"]
 ${MemberManagementPaneL}    //li/a[@id="MemberManagement"]/span[text()="Member Management"]
 ${ChageRootPasswordPaneL}    //li/a[@id="RootPassword"]/span[text()="Change Root Password"]
 ${DashboardPaneL}    //li/a[@id="Dashboard"]/span[text()="Dashboard"]

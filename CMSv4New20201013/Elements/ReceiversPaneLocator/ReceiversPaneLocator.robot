@@ -13,6 +13,7 @@ ${renameSiteInputL}    //input[@class="site-input"]
 ${sbAdminAddButtonL}    //button[@class="btn btn-secondary output-button center-block" and text()="Add"]
 ${sbMonitorAddButtonL}    //div[@class="col-md-7"]/div[2]/div[1]/div[1]/div[1]/div[1]/button
 ${usersTabL}      //li[text()="Users"]
+${role}    {}
 ${siteUserRoleL}    //table[@id="user-table"]/tbody/tr[td[1][text()="\${siteName}"] and td[3][text()="\${username}"] and td[5]/select/option[@selected and text()="${role}"]]
 ${receiversTabL}    //li[text()="Receivers"]
 ${actionsButtonL}    //button/span[text()="Actions"]
